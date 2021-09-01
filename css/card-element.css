@@ -49,9 +49,6 @@ div.card-element > header {
   flex-direction: column;
   align-items: center;
   justify-content: center;  
-  animation-name: fade;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
 }
 
 div.card-element > header > h2.tag-abbr {
