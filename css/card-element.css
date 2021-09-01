@@ -1,7 +1,6 @@
 @keyframes fade {
   from {
-    opacity. 0;
-    background-color: red;
+    opacity: 0;
   }
   to {
     opacity: 1;
@@ -16,8 +15,6 @@ div.card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: fade;
-  animation-duration: 60s;
 }
 
 div.card-container > div.card-pane {
@@ -37,7 +34,9 @@ div.card-element {
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 16px;  
+  animation-name: fade;
+  animation-duration: 60s;
 }
 
 div.card-element > header {
