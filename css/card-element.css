@@ -26,7 +26,7 @@ div.card-element {
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  animation: stretch-animation 0.2s ease;
+  animation: stretch-animation 6s ease;
 }
 
 div.card-element > header {
@@ -72,12 +72,9 @@ div.card-element > footer > section dfn {
 
 @keyframes stretch-animation {
   from {
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
+    opacity. 0;
   }
   to {
-    width: 40%;
-    max-width: 280px;
+    opacity: 1;
   }
 }
