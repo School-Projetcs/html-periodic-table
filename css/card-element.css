@@ -1,6 +1,7 @@
 @keyframes fade {
   from {
     opacity. 0;
+    background-color: red;
   }
   to {
     opacity: 1;
