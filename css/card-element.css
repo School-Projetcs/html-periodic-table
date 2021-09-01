@@ -36,7 +36,7 @@ div.card-element {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;  
   animation-name: fade;
-  animation-duration: 60s;
+  animation-duration: 4s;
 }
 
 div.card-element > header {
@@ -48,7 +48,9 @@ div.card-element > header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
+  animation-name: fade;
+  animation-duration: 6s;
 }
 
 div.card-element > header > h2.tag-abbr {
