@@ -1,3 +1,12 @@
+@keyframes fade {
+  from {
+    opacity. 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 div.card-container {
   z-index: 100;
   position: fixed;
@@ -26,7 +35,7 @@ div.card-element {
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  animation: stretch-animation 6s ease;
+  animation: fade 6s;
 }
 
 div.card-element > header {
@@ -68,13 +77,4 @@ div.card-element > footer > section dfn {
   color: #3f3d3d;
   margin-right: 16px;
   text-decoration: underline;
-}
-
-@keyframes stretch-animation {
-  from {
-    opacity. 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
