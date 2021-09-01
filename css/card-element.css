@@ -35,7 +35,8 @@ div.card-element {
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  animation: fade 6s;
+  animation-name: fade;
+  animation-duration: 60s;
 }
 
 div.card-element > header {
