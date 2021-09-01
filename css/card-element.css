@@ -15,6 +15,8 @@ div.card-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: fade;
+  animation-duration: 60s;
 }
 
 div.card-container > div.card-pane {
@@ -35,8 +37,6 @@ div.card-element {
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  opacity: 1;
-  transition: opacity 60s;
 }
 
 div.card-element > header {
